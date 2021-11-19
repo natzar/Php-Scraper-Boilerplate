@@ -21,6 +21,7 @@ $('.panel.panel-default').each(function(i,k){ 
 
 	var start_date = aux[0];
 	var end_date = aux[1];
+	
 	if (start_date && end_date){
 		var post = { 
 			source:"galleriesnow", 
